@@ -1,3 +1,3 @@
-packages_apps_OTACenter
+packages_apps_RadiumOTA
 ==========================
-Euphoria-OS OTA App
+Team-Radium OTA App

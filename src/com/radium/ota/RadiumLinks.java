@@ -14,9 +14,9 @@
  *=========================================================================
  */
 
-package com.euphoria.ota;
+package com.radium.ota;
 
-import com.euphoria.ota.R;
+import com.radium.ota.R;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -55,7 +55,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class EuphoriaLinks extends Fragment {
+public class RadiumLinks extends Fragment {
 
     private LinearLayout mDownload;
     private LinearLayout mChangelog;
@@ -95,7 +95,7 @@ public class EuphoriaLinks extends Fragment {
     byte[] buf = new byte[1024];
 
     public View onCreateView (LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.euphoria_ota_links, container, false);
+        View view = inflater.inflate(R.layout.radium_ota_links, container, false);
         return view;
     }
 
@@ -123,7 +123,7 @@ public class EuphoriaLinks extends Fragment {
             } else if (v == mXda) {
                 launchUrl(getString(R.string.xda_url));
             } else if (v == mSource) {
-                launchUrl("http://github.com/Euphoria-OS");
+                launchUrl("http://github.com/Team-Radium");
             } else if (v == mReport) {
                 bugreport();
             }
@@ -168,7 +168,7 @@ public class EuphoriaLinks extends Fragment {
             String strLine;
             while ((strLine = br.readLine()) != null) {
                 String[] line = strLine.split("=");
-                if (line[0].equals("eos.ota.version")) {
+                if (line[0].equals("radium.ota.version")) {
                     mStrCurFile = line[1];
                 }
             }
