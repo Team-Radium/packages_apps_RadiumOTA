@@ -112,12 +112,7 @@ public class RadiumLinks extends Fragment {
             } else if (v == mChangelog) {
                 launchUrl(getString(R.string.changelog_url));
             } else if (v == mDownloadGapps) {
-                if (mStrCurFile != null
-                    && mStrCurFile.contains("4.4")) {
-                    launchUrl(getString(R.string.gapps_url_kitkat));
-                } else {
-                    launchUrl(getString(R.string.gapps_url));
-                }
+ 		launchUrl(getString(R.string.gapps_url));
             } else if (v == mGoogleplus) {
                 launchUrl("https://plus.google.com/u/0/communities/116795582851167273031");
             } else if (v == mXda) {

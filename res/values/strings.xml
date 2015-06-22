@@ -70,13 +70,12 @@
     <string name="short_cut_download_gapps_summary">Download latest Gapps package</string>
 
     <!-- URL's -->
-    <string name="download_url"></string>
-    <string name="changelog_url"></string>
-    <string name="xda_url"></string>
-    <string name="gapps_url"></string>
-
+    <string name="download_url">http://team-radium.github.io/Downloads</string>
+    <string name="changelog_url">http://team-radium.github.io/Changelog.html</string>
+    <string name="gapps_url">https://fitsnugly.euroskank.com/?device=banks&amp;rom=gapps</string>
+    <string name="xda_url">http://team-radium.github.io/Downloads</string>
     <!-- Update checker -->
-    <string name="xml_url"></string>
+    <string name="xml_url">http://radium-devices.github.io/ota.xml</string>
     <string name="notification_message">ROM update available</string>
 
     <!-- About -->
