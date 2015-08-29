@@ -114,7 +114,7 @@ public class RadiumLinks extends Fragment {
             } else if (v == mDownloadGapps) {
  		launchUrl(getString(R.string.gapps_url));
             } else if (v == mGoogleplus) {
-                launchUrl("https://plus.google.com/u/0/communities/116795582851167273031");
+                launchUrl("https://plus.google.com/u/0/communities/101459466769205508906");
             } else if (v == mXda) {
                 launchUrl(getString(R.string.xda_url));
             } else if (v == mSource) {
