@@ -70,10 +70,10 @@
     <string name="short_cut_download_gapps_summary">Download latest Gapps package</string>
 
     <!-- URL's -->
-    <string name="download_url">http://team-radium.github.io/Downloads</string>
+    <string name="download_url">http://team-radium.github.io</string>
     <string name="changelog_url">http://team-radium.github.io/Changelog.html</string>
-    <string name="gapps_url">https://fitsnugly.euroskank.com/?device=banks&amp;rom=gapps</string>
-    <string name="xda_url">http://team-radium.github.io/Downloads</string>
+    <string name="gapps_url">https://basketbuild.com/devs/BaNkS/GApps</string>
+    <string name="xda_url">http://team-radium.github.io/string>
     <!-- Update checker -->
     <string name="xml_url">http://radium-devices.github.io/ota.xml</string>
     <string name="notification_message">ROM update available</string>
@@ -101,7 +101,7 @@
     <string name="about_ota">OTACenter allows you to easily manage\n your ROM!</string>
     <string name="about_copyright">\u00A9 Copyright Slimroms 2013 modifed for Radium</string>
     <string name="about_version">OTACenter 2.0</string>
-    <string name="about_contact">Contact us at @gmail.com</string>
+    <string name="about_contact">Contact us at teamradium2015@gmail.com</string>
     <string name="about_contact_text">Tell us what you think\nor let us know about a bug or problem</string>
     <string name="about_license">Open source licenses</string>
     <string name="about_license_text">OTACenter app:</string>
