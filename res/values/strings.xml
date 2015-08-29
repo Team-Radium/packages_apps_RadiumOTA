@@ -73,7 +73,7 @@
     <string name="download_url">http://team-radium.github.io</string>
     <string name="changelog_url">http://team-radium.github.io/Changelog.html</string>
     <string name="gapps_url">https://basketbuild.com/devs/BaNkS/GApps</string>
-    <string name="xda_url">http://team-radium.github.io/string>
+    <string name="xda_url">http://team-radium.github.io</string>
     <!-- Update checker -->
     <string name="xml_url">http://radium-devices.github.io/ota.xml</string>
     <string name="notification_message">ROM update available</string>
